@@ -21,7 +21,3 @@ def conquer(_l, _r):
     while r < len(_r): res.append(_r[r]); r += 1
 
     return res
-
-seq = [4, 5, 2, 7, 9]
-
-print(mergeSort(seq))
