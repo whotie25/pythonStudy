@@ -19,5 +19,4 @@ def conquer(_l, _r):
         else: res.append(_r[r]); r += 1
     while l < len(_l): res.append(_l[l]); l += 1
     while r < len(_r): res.append(_r[r]); r += 1
-
     return res
